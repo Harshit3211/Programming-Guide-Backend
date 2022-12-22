@@ -69,6 +69,9 @@ const shuffler = (arr, number_of_problems) => {
     }
     return problems;
 };
+app.get("/", (request, response) => {
+    response.send("Hello there!");
+});
 
 app.get("/check", (request, response) => {
     response.json(problemsetData.problems.length);
