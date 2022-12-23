@@ -142,7 +142,7 @@ const shuffler = (arr, number_of_problems) => {
     return problems;
 };
 app.get("/", (request, response) => {
-    response.send("Hello there!");
+    response.send("Hello there 2!");
 });
 
 app.get("/check", (request, response) => {
